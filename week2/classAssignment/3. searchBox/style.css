@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+.search-box {
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 960px;
+  background-color: white;
+  border-radius: 0.25rem;
+  column-gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+input#search-box {
+  border: 1px solid grey;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  flex-basis: 100%;
+}
+button.search-btn {
+  border: 1px solid grey;
+  color: white;
+  background-color: #2164b6;
+  border-radius: 0.75rem;
+  padding: 0.25rem 0.75rem;
+}
