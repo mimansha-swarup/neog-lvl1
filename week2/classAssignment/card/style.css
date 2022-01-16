@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+.card {
+  max-width: 480px;
+  margin: 1rem auto;
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.2rem;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.title {
+  margin-right: auto;
+}
+
+hr {
+  height: 0.1rem;
+  border: none;
+  background-color: lightgray;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 0.25rem;
+}
+button {
+  padding: 0.5rem 0.75rem;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+}
